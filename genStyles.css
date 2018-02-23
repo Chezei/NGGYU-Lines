@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    background-image: url("Rick.jpg");
+    background-size: cover;
+    z-index: -2;
+}
+
+#quoteDisplay {
+    color: Black;
+    font-size: 2.9em;
+    opacity: 0.80;
+}
+
+.container {
+    height: 20em;
+}
+
+h1, p {
+    max-width: 25em;
+    color: white;
+    font-family: "comic sans ms";
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    z-index: -1;
+}
+
+button {
+    font-family: "comic sans ms";
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: rgb(170, 182, 231);
+    color: black;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+
+#btn:hover {
+    opacity: 0.8;
+    color: black;
+}
